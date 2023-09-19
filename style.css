@@ -1,0 +1,101 @@
+/* Réinitialisation des marges et des espacements */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style de base */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Barre de navigation */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #6a8ef1;
+    border-color: #f03514; /* Couleur différente et soulignement au survol */
+}
+/* Sections */
+.section {
+  background-color: whitesmoke;
+  border: 1px solid #db9209;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Bouton de formulaire */
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+  font-weight: bold;
+  color: black;
+  border-radius: 5px;
+  background-color: green; /* Couleur différente au survol */
+    border-radius: 25px;/*changement de forme en survol*/
+}
+
+/* Pied de page */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Réseaux sociaux */
+footer a {
+  margin: 0 10px;
+  color: white;
+}
+
+/* Réseaux sociaux - Icônes */
+footer img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+/* Réseaux sociaux - Lien */
+footer a:hover {
+  color: #555;
+}
+
+
+h1{
+    text-decoration: underline double;
+}
+
+h2{
+    text-decoration: underline double;
+}
